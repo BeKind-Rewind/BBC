@@ -72,7 +72,9 @@ nav {
 li {
  list-style: none;
  text-decoration: none;
- color: white;
+ border-left: solid .5px gray;
+ border-right: solid .5px gray;
+ padding: 1rem;
 }
 
 .flex {
@@ -86,6 +88,7 @@ li {
 a {
   text-decoration: none;
   list-style: none;
+  color: white;
 }
 
 
