@@ -23,7 +23,10 @@
 
 body {
   font-family: "Hind Siliguri", sans-serif;
-  color: gray
+  color: gray;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-bottom: 4rem;
 }
 
 .white_text {
@@ -95,3 +98,36 @@ a {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.left_flare_red {
+  border-left: solid 3px red;
+}
+
+.left_flare_blue {
+  border-left: solid 3px rgb(86, 173, 255);
+}
+
+.isrealUAE {
+  background-image: url("/assets/isrealUAE.png");
+  background-repeat: no-repeat;
+}
+
+.productive {
+  background-image: url("/assets/productive.png");
+  background-repeat: no-repeat;
+}
+
+.martyr {
+  background-image: url("/assets/martyr.png");
+  background-repeat: no-repeat;
+}
+
+.canada {
+  background-image: url("/assets/canada.png");
+  background-repeat: no-repeat;
+}
+
+.vaccine {
+  background-image: url("/assets/vaccine.png");
+  background-repeat: no-repeat;
+}
