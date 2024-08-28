@@ -24,8 +24,8 @@
 body {
   font-family: "Hind Siliguri", sans-serif;
   color: gray;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin-bottom: 4rem;
 }
 
@@ -77,7 +77,8 @@ li {
  text-decoration: none;
  border-left: solid .5px gray;
  border-right: solid .5px gray;
- padding: 1rem;
+ padding: 1rem 1rem .5rem 1rem;
+ margin: 0 2rem 1rem .5rem 1rem;
 }
 
 .flex {
@@ -110,6 +111,11 @@ a {
 .isrealUAE {
   background-image: url("/assets/isrealUAE.png");
   background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 1rem;
+  padding: 16rem 2rem 2rem 2rem;
+  text-shadow: 1px 1px 0 black;
+  color: rgb(255, 255, 255);
 }
 
 .productive {
@@ -130,4 +136,21 @@ a {
 .vaccine {
   background-image: url("/assets/vaccine.png");
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quad {
+  color: rgb(255, 255, 255);
+  padding: 5rem 1rem 0 1rem;
+  height: 12rem;
+  width: 20rem;
+  text-shadow: 1px 1px 0 black;
+}
+
+.margin_b_sm {
+  margin-bottom: 2rem;
+}
+
+.block {
+  display: block;
 }
